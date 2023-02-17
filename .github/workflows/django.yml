@@ -24,7 +24,7 @@ jobs:
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         application_name: app-ebdjango
         environment_name: env-ebdjango
-        version_label: 2
+        version_label: 9999999
         region: "us-east-1"
         deployment_package: deploy.zip
-        use_existing_version_if_available: false
+        use_existing_version_if_available: true
