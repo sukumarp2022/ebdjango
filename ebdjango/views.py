@@ -4,4 +4,4 @@ from . import settings
 
 
 def sample_view(request):
-    return HttpResponse(f"App Version: {settings.APP_VERSION}")
+    return HttpResponse(f"App version: {settings.APP_VERSION}")
