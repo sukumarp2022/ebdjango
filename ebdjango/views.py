@@ -1,6 +1,6 @@
 from django.http import HttpResponse
 
-from ebdjango.ebdjango import settings
+from . import settings
 
 
 def sample_view(request):
