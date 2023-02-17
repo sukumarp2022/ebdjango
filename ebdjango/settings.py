@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['env-ebdjango.eba-zx2cx9qy.us-east-1.elasticbeanstalk.com']
 
-APP_VERSION = "2.0.0"
+APP_VERSION = "3.0.0"
 
 # Application definition
 
